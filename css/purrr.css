@@ -8,7 +8,6 @@
 	font-size: 15px;
 }
 
-
 body {
 	margin: 0;
 	--color-text: #38220f;
@@ -170,7 +169,7 @@ a:focus-visible {
 	width: 220px;
 	height: 190px;
 	--grid-padding: 1px;
-    margin-bottom: 3vh;
+    margin-bottom: 8vh;
     pointer-events: none;
     opacity: 0;
     visibility: hidden;
@@ -247,17 +246,21 @@ a:focus-visible {
 .content__item-heading {
 	font-size: 5vw;
 	line-height: 1;
-	margin: 1rem 0 3rem 0;
+	margin: 1rem 0 2rem 0;
 	font-weight: 800;
 }
 
 .content__item-text {
 	max-width: 30ch;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 .content__item-link {
 	cursor: pointer;
+}
+.content__item-link:hover,
+.content__item-link:focus {
+	color: #7d4234;
 }
 
 .slide-nav {
@@ -315,7 +318,7 @@ a:focus-visible {
 }
 
 .back svg {
-	stroke-linecap: round;
+	stroke-linecap:square;
 }
 
 .back:hover,
