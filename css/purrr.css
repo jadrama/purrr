@@ -10,10 +10,10 @@
 
 body {
 	margin: 0;
-	--color-text: #000;
+	--color-text: #38220f;
 	--color-bg: #f3f0e5;
-	--color-link: #000;
-	--color-link-hover: #000;
+	--color-link: #38220f;
+	--color-link-hover: #7d4234;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: rustica, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
@@ -23,7 +23,6 @@ body {
 	overflow-y: scroll;
 	line-height: 1;
 }
-
 .js .loading::before,
 .js .loading::after {
 	content: '';
@@ -250,8 +249,9 @@ a:focus-visible {
 }
 
 .content__item-text {
-	max-width: 50ch;
+	max-width: 30ch;
 	margin-bottom: 1rem;
+	margin-right: 1rem;
 }
 
 .content__item-link {
