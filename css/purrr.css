@@ -10,7 +10,7 @@
 
 body {
 	margin: 0;
-	--color-text: #38220f;
+	--color-text: #000;
 	--color-bg: #f3f0e5;
 	--color-link: #000;
 	--color-link-hover: #000;
@@ -60,7 +60,6 @@ body {
 }
 
 a {
-	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
 	font-weight: 600;
@@ -251,7 +250,7 @@ a:focus-visible {
 }
 
 .content__item-text {
-	max-width: 30ch;
+	max-width: 50ch;
 	margin-bottom: 1rem;
 }
 
@@ -261,6 +260,7 @@ a:focus-visible {
 .content__item-link:hover,
 .content__item-link:focus {
 	color: #7d4234;
+	text-decoration: underline!important;
 }
 
 .slide-nav {
