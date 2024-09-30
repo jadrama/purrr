@@ -303,26 +303,20 @@ a:focus-visible {
 }
 
 .back {
-	background: none;
 	border: 0;
 	padding: 0;
-	margin: auto 0 1.5rem 0;
-    opacity: 0;
+	margin: auto 0 1.5rem 20rem 0;
+    opacity: 1;
     pointer-events: none;
     stroke: #38220f;
     z-index: 1000;
     cursor: url("/img/paw1.svg") 20 20, pointer;
-    width: 50px;
-}
-
-.back svg {
-	stroke-linecap:square;
+    height:6vw;
 }
 
 .back:hover,
 .back:focus {
 	outline: none;
-	stroke: #7d4234;
 }
 
 .content--open .back {
