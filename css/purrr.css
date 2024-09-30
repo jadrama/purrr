@@ -23,6 +23,7 @@ body {
 	overflow-y: scroll;
 	line-height: 1;
 	cursor: url("/img/paw1.png"), default;
+	cursor: url("/img/paw2.png"), pointer;
 }
 .js .loading::before,
 .js .loading::after {
@@ -411,16 +412,4 @@ a:focus-visible {
         display: none;
     }
 
-	#cursor {
-		width: 30px;
-		height: 30px;
-		background: rgba(255, 255, 255, 0.154);
-		position: fixed;
-		top: 0px;
-		left: 0px;
-		border-radius: 15px;
-		translate:-50% -50%;
-		mix-blend-mode:difference;
-		pointer-events: none;
-	}
 }
