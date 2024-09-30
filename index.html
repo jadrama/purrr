@@ -10,6 +10,7 @@
         <meta name="description" content="Know a little more about cats!"/>
         <link rel="stylesheet" href="css/purrr.css"/>
         <link rel="shortcut icon" href="img/cat.png">
+        <audio id="bg_audio" src="almost-there-jazz.mp3" loop="loop"></audio>
     </head>
     <body>
         <div class="custom"></div>
@@ -19,80 +20,112 @@
                 <div class="grid grid--large">
 
                     <div class="grid__cell grid__cell-c2-r2 grid__cell--padded">
-                        <h1 class="frame__title oh"><span class="oh__inner">Let's know more about cats!</span></h1>
+                        <h1 class="frame__title oh"><span class="oh__inner">let's know more about cats!</span></h1>
                     </div>
 
                     <div class="grid__cell grid__cell-c1-r1">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/1.avif)" 
-                            data-item="item-1"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/1.avif)" 
+                                data-item="item-1"></div>
+                                <p class="img__description">orange cats</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="grid__cell grid__cell-c3-r1">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/2.jpg)" 
-                            data-item="item-2"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/2.jpg)" 
+                                data-item="item-2"></div>
+                                <p class="img__description">care tips</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="grid__cell grid__cell-c4-r1">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/3.avif)" 
-                            data-item="item-3"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/3.avif)" 
+                                data-item="item-3"></div>
+                                <p class="img__description">myths</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="grid__cell grid__cell-c1-r2">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/4.jpg)" 
-                            data-item="item-4"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/4.jpg)" 
+                                data-item="item-4"></div> 
+                                <p class="img__description">history</p>                           
+                            </div>
                         </div>
                     </div>
                     <div class="grid__cell grid__cell-c3-r2">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/5.avif)" 
-                            data-item="item-5"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/5.avif)" 
+                                data-item="item-5"></div>
+                                <p class="img__description">behavior</p> 
+                            </div>
                         </div>
                     </div>
                     <div class="grid__cell grid__cell-c2-r3">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/6.jpg)" 
-                            data-item="item-6"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/6.jpg)" 
+                                data-item="item-6"></div>
+                                <p class="img__description">health</p> 
+                            </div>
+
                         </div>
                     </div>
                     <div class="grid__cell grid__cell-c4-r3">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/7.avif)" 
-                            data-item="item-7"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/7.avif)" 
+                                data-item="item-7"></div>
+                                <p class="img__description">toys</p>
+                            </div>
                         </div>
                     </div>
                     <div class="grid__cell grid__cell-c1-r4">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/8.webp)"
-                            data-item="item-8"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/8.webp)"
+                                data-item="item-8"></div>
+                                <p class="img__description">purring</p>
+                            </div>
                         </div>
                     </div>
                     <div class="grid__cell grid__cell-c3-r4">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/9.jpg)" 
-                            data-item="item-9"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/9.jpg)" 
+                                data-item="item-9"></div>
+                                <p class="img__description">zoomies</p>
+                            </div>
+                            
                         </div>
                     </div>
                     <div class="grid__cell grid__cell-c3-r5">
                         <div class="grid__cell-img">
-                            <div class="grid__cell-img-inner" 
-                            style="background-image:url(img/10.webp)" 
-                            data-item="item-10"></div>
+                            <div class="img__wrap">
+                                <div class="grid__cell-img-inner" 
+                                style="background-image:url(img/10.webp)" 
+                                data-item="item-10"></div>
+                                <p class="img__description">gifts</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -100,7 +133,7 @@
 
                     <div class="content__item" id="item-1">
                         <span class="content__item-number oh"><span class="oh__inner">01</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Orange Cats</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">orange cats</span></h2>
                         <p class="content__item-text">
                             Most orange cats are male—about 80%! These friendly felines are known for their bold personalities, and many owners swear they’re the most affectionate of all cats.
                         </p>
@@ -113,7 +146,7 @@
 
                     <div class="content__item" id="item-2">
                         <span class="content__item-number oh"><span class="oh__inner">02</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Care Tips</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">care tips</span></h2>
                         <p class="content__item-text">
                             Cats groom themselves frequently, but regular brushing helps reduce shedding and hairballs, especially for long-haired breeds.
                         </p>
@@ -126,7 +159,7 @@
 
                     <div class="content__item" id="item-3">
                         <span class="content__item-number oh"><span class="oh__inner">03</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Myths</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">myths</span></h2>
                         <p class="content__item-text">
                             Contrary to popular belief, cats don’t always land on their feet. While their righting reflex helps them twist mid-air, they can still misjudge heights or land awkwardly, leading to potential injuries from high falls.
                         </p>
@@ -138,7 +171,7 @@
                     </div>
                     <div class="content__item" id="item-4">
                         <span class="content__item-number oh"><span class="oh__inner">04</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">History</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">history</span></h2>
                         <p class="content__item-text">
                             Cats were worshiped in ancient Egypt, where harming a cat was punishable by death, and many were mummified alongside their owners.                        
                         </p>
@@ -150,7 +183,7 @@
                     </div>
                     <div class="content__item" id="item-5">
                         <span class="content__item-number oh"><span class="oh__inner">05</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Behavior</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">behavior</span></h2>
                         <p class="content__item-text">
                             When a cat blinks slowly at you, it's usually a sign of affection, trust, and contentment. It's a way for cats to communicate with humans and other cats that they feel safe and relaxed.
                         </p>
@@ -162,7 +195,7 @@
                     </div>
                     <div class="content__item" id="item-6">
                         <span class="content__item-number oh"><span class="oh__inner">06</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Health</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">health</span></h2>
                         <p class="content__item-text">
                            Obesity is a common issue in domestic cats, leading to problems like diabetes and joint pain. Maintaining a balanced diet is key.
                         </p>
@@ -174,7 +207,7 @@
                     </div>
                     <div class="content__item" id="item-7">
                         <span class="content__item-number oh"><span class="oh__inner">07</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Toys</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">toys</span></h2>
                         <p class="content__item-text">
                             A simple cardboard box or a crumpled piece of paper can provide hours of entertainment for a playful cat. Their curiosity and love for hiding make these everyday items irresistible, turning your living room into a feline playground!
                         </p>
@@ -186,7 +219,7 @@
                     </div>
                     <div class="content__item" id="item-8">
                         <span class="content__item-number oh"><span class="oh__inner">08</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Purring</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">purring</span></h2>
                         <p class="content__item-text">
                             Cats purr not just when they’re happy, but also to heal themselves! The frequency of their purrs can help promote bone growth and reduce pain, making it a built-in recovery tool.
                         </p>
@@ -198,7 +231,7 @@
                     </div>
                     <div class="content__item" id="item-9">
                         <span class="content__item-number oh"><span class="oh__inner">09</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Zoomies</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">zoomies</span></h2>
                         <p class="content__item-text">
                             Ever seen your cat randomly sprint around the house or pounce at thin air? These 'cat zoomies' are their way of battling imaginary foes—who always seem to be lurking when you least expect it!
                         </p>
@@ -210,7 +243,7 @@
                     </div>
                     <div class="content__item" id="item-10">
                         <span class="content__item-number oh"><span class="oh__inner">10</span></span>
-                        <h2 class="content__item-heading oh"><span class="oh__inner">Gifts</span></h2>
+                        <h2 class="content__item-heading oh"><span class="oh__inner">gifts</span></h2>
                         <p class="content__item-text">
                             Some cats will bring their owners 'gifts' like socks or toys as if they’ve hunted them, proudly showing off their catch—even if it’s just a fuzzy slipper!
                         </p>
@@ -277,7 +310,13 @@
                     </nav>
                 </div>
             </main>
-            <script type="module" src="js/hover.js"></script> 
+            <script type="module" src="js/hover.js">
+            </script> 
+            <script>
+                window.onload = function() {
+                document.getElementById("bg_audio").play();
+                }
+            </script>
     
         </body>
 
