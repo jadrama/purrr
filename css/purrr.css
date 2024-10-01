@@ -22,7 +22,7 @@ body {
 	overflow: hidden;
 	overflow-y: scroll;
 	line-height: 1;
-	cursor: url("/img/paw2.svg") 20 20, default;
+	cursor: url("paw2.svg") 20 20, default;
 }
 
 .js .loading::before,
