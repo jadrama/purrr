@@ -9,8 +9,8 @@
         <meta name="description" content="Know a little more about cats!"/>
         <link rel="stylesheet" href="css/purrr.css"/>
         <link rel="shortcut icon" href="img/cat.png">
-        <audio id="my_audio" src="img/almost-there-jazz.mp3" loop="loop"></audio>
-    </head>
+        <iframe src="https://github.com/anars/blank-audio/blob/master/250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <audio id="player" autoplay controls><source src="/img/almost-there-jazz.mp3" type="audio/mp3"></audio>
     <body>
         <div class="custom"></div>
         
@@ -311,10 +311,6 @@
             </main>
             <script type="module" src="js/hover.js">
             </script> 
-            <script>window.onload = function() {
-                document.getElementById("my_audio").play();
-                }            
-            </script>
         </body>
 
     </body>
