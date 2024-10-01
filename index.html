@@ -9,7 +9,7 @@
         <meta name="description" content="Know a little more about cats!"/>
         <link rel="stylesheet" href="css/purrr.css"/>
         <link rel="shortcut icon" href="img/cat.png">
-        <audio src="/img/almost-there-jazz.mp3" autoplay></audio>
+        <audio id="my_audio" src="img/almost-there-jazz.mp3" loop="loop"></audio>
     </head>
     <body>
         <div class="custom"></div>
@@ -312,6 +312,10 @@
             </main>
             <script type="module" src="js/hover.js">
             </script> 
+            <script>window.onload = function() {
+                document.getElementById("my_audio").play();
+                }            
+            </script>
         </body>
 
     </body>
