@@ -250,6 +250,7 @@ a:focus-visible {
 
 .content__item-link {
 	cursor: url("/img/paw1.svg") 20 20, pointer;
+	margin: 0px 0px 0px 0px !important;
 }
 
 .slide-nav {
